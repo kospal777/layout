@@ -1,0 +1,45 @@
+body {
+    background-color: #151719;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin: 0;
+}
+
+header {
+    height: 80px;
+}
+
+.header-waves-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-content {
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    width: 96px;
+    height: 40px;
+    border: none;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.25px;
+    box-shadow: 0px 1px 3px 0px #19202c0a;
+}
+
+.text-button {
+    background-color: transparent;
+    color: #5d5dff;
+}
+
+.filled-button {
+    background-color: #5d5dff;
+    color: #fff;
+}

@@ -1,3 +1,7 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
 body {
     background-color: #151719;
     padding-left: 12%;
@@ -10,6 +14,7 @@ header {
 }
 
 .header-waves-image {
+    z-index: -999;
     position: absolute;
     top: 0;
     right: 0;
@@ -19,12 +24,12 @@ header {
     display: flex;
     height: 80px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .button {
-    width: 96px;
+    min-width: 96px;
     height: 40px;
     border: none;
     line-height: 24px;
@@ -32,6 +37,7 @@ header {
     font-size: 16px;
     letter-spacing: -0.25px;
     box-shadow: 0px 1px 3px 0px #19202c0a;
+    border-radius: 3px;
 }
 
 .text-button {
@@ -42,4 +48,60 @@ header {
 .filled-button {
     background-color: #5d5dff;
     color: #fff;
+}
+#video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 60px;
+}
+h1 {
+    margin: 0;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 62px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: rgba(217, 227, 234, 1);
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: rgba(155, 169, 180, 1);
+}
+.dark-button {
+    color: rgba(197, 210, 220, 1);
+    background: rgba(51, 54, 58, 1);
+
+
+}
+
+.video-container {
+    position: relative;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.play-button {
+    background: linear-gradient(213.57deg, rgba(235, 241, 245, 0.8) 14.42%, #EBF1F5 84.52%);
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-button > img {
+    align-self: center;
 }

@@ -124,3 +124,23 @@ video {
     bottom: 0;
     z-index: -999;
 }
+#advantages-section {
+
+}
+h2 {
+
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: rgba(217, 227, 234, 1);
+}
+.table-section {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-content: center;
+}
